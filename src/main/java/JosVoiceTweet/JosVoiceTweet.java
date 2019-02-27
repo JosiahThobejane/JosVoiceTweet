@@ -39,10 +39,10 @@ public class JosVoiceTweet {
     { 
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true)
-          .setOAuthConsumerKey("5U2b3ex6tAU02bzEUsBf04A0P")
-          .setOAuthConsumerSecret("lEYWpplstulnFOy4U4bROkEnZ0uCvXM96UqV4Zfa8i0AsHC2Gj")
-          .setOAuthAccessToken("723164798834368512-E8oThYkfLE7iH9rtzSIG3jl0JCbs51W")
-          .setOAuthAccessTokenSecret("1fhxGYdvOf4XUlTDjhv2LEZY8arWLcf6s99dSowwqX94H");
+          .setOAuthConsumerKey("CANT SHOW YOU THIS")
+          .setOAuthConsumerSecret("CANT SHOW YOU THIS")
+          .setOAuthAccessToken("CANT SHOW YOU THIS")
+          .setOAuthAccessTokenSecret("CANT SHOW YOU THIS");
         TwitterFactory twitterFactory = new TwitterFactory(configurationBuilder.build());
         twitter = twitterFactory.getInstance();
     }
