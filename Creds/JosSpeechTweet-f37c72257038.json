@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "josspeechtweet",
+  "private_key_id": "f37c722570381e4c590828ac58002944eb516936",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmKSYFeQf1rzH+\nq+kW6TqrMvpUSFFh2dR1QpNmSdOp5r8NrdvBU9gOJK1fFkp5fXHXd9WfAZWd3c/V\nVAnolzhE2munpINUWmU/NCwIVidLjCBFMUlPSrIuWN93iENBf0bcdareXS/D1IIb\n3y/VGFsD3Y5sE6LxYjHK2PAhMoKYjBMnVqpxvQuxKv/RDbYX2tAnnTArq8PEaGlJ\nUGD/okRkS9dPJtoaz5f0DJqWvvOOPpY8jbbbW5JFx9tIm9frJApvFR8uTlAdDN1w\nvAS61KyibgCxKglxZ0M0pkBkU12L5jWa59ZfwxtwdRzrHyrYcxgTvOCV/mA0naI+\nJr+fsgAxAgMBAAECggEABv4YUYakZRx4WCVX69To2SeODVn1ws5t+HlSxq04sR+6\nzpKQevRSVVYJzcScYbx7u/uZC9X/O+OHyYx91kH25j7i5O0xca1UMXK6n6cwhCdj\nfEX0tdeI5BZtYRRk8C6xBroU9MKrLeyVhSLBWpBp1CHQyo+Q/eOKAOVcRalggZbi\nIpTBq6Ib0a3UIwN+HUvJY57Vkr57Mj+y2RYOeBdTyOvsymR1gNQHcT+pjvdHTUKS\nUNl7wmODC8tGN9630tpzx+rOZNwETx0X4QsBrQv3/nSHdj8ADx0m8YB40FCIk9nD\nJaN4rzqtGIf/vbG34jC0AXjyRcxQu9NP4xjEdKRJ2QKBgQDSigV231AhkmJoi99B\nHxTwX/ZdQKDXUHlhwgNx4dA6K3wh2wAhoFAtqHzECazPhrvk5+SuoVJd3/DOWdGU\nqFcKGXXziNt9hdQw3JkZXwrNWP5Aj6P9zRtpP8W4QHWoQdHpOX9YwK0L2zrgdpE1\nyk3DMsKUfDud+roE6w/WoAEg1wKBgQDKCgVAKNDXNFnHpQHMVflrQHvUcUGxiWKV\nGbAbqCR59IWqGaCyayIDJTeVVR1wpj75CssiOnmSBpN5zFwFHFjqlH/0K6Ef5f0t\nNzu6h6IMW8Q5p4Oak0pcZupXbc/jSvnYOXAScOu0Uhvzhswvuf7isV10IVFIPxU1\nJD88aCNeNwKBgQCCDki52dECLA8mTeEntS+WHXFuwZGZ8FhLDzJZkwiyJlKUB1jZ\nbNKaoc4Qu3lI6Q4ApU8aoQTkgIWcstdIYYUC9B9sxUnxDE67sEnS5mch2quU7iZ7\njcw1A/P7kbYcriwhSidkiAFdpZuFNTkWZVYMErsoRmX9fPiUOTCbgFOyGQKBgExE\nGhVNEwCZp2ZgmFws/BkLX3MjSZwd81O7PapC/3n13tsGD44qOM2dJ+08Ev/qEY1r\nEKEcF7YSu2rXxMi9Gad7ZQ2jxo/G/pop5mcUOgyWO21UGa6o+QIGa2GTd00iiUug\n6vhbHe6UrC5ybPN7L4cdUty6kvdFsNi9lQ1VdjxjAoGBALzkoUjK2qrjJKvFbbx1\nVhlw58KEQ28lx1NdBbGqYRW8pFS5+Vo6WXb3SJNcOou/hM1u5YLrr2uSeeeidn9A\no3K3LQpXV+Xi9ATQ9MMQ8LHLMk0dFkINIsjXv1PsgSx1nztN6qR7Z54OQLCqqu7y\n2lrzJgDm0aEgaCRkTKOW08VP\n-----END PRIVATE KEY-----\n",
+  "client_email": "josspeechtweet@josspeechtweet.iam.gserviceaccount.com",
+  "client_id": "105542201248109997571",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/josspeechtweet%40josspeechtweet.iam.gserviceaccount.com"
+}
