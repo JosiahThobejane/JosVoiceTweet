@@ -16,6 +16,8 @@ An JosVoiceTweet built in Java, allows you to post a Tweet using the Google Spee
     mvn install dependency:copy-dependencies 
     ```
 - Download and Setup your Google Cloud Credentials, Please follow this tutorial [here](https://cloud.google.com/video-intelligence/docs/common/auth)
-- Fetch your Twitter Developer app Keys and Tokens, make sure your Twiter app has Read and Write permissions, Insert your Keys and Tokens in the `public void InitConfig()` method, in the `JosVoiceTweet.java` file.
+- Fetch your Twitter Developer app Keys and Tokens: 
+    - make sure your Twiter app has Read and Write permissions.
+    - Insert your Keys and Tokens in the `public void InitConfig()` method, in the `JosVoiceTweet.java` file.
 - All should be ready now, run your app ;-)
 > I will be updating this ReadMe to give more clarification on how to set this project up. Should you enconter problems, you can get in touch with me on Twitter: [@JosiahThobejane](https://twitter.com/josiahthobejane) or email JosiahThobejane@gmail.com
