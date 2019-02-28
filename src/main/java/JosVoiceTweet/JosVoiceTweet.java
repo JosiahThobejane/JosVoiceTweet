@@ -39,10 +39,10 @@ public class JosVoiceTweet {
     { 
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true)
-          .setOAuthConsumerKey("CANT SHOW YOU THIS")
-          .setOAuthConsumerSecret("CANT SHOW YOU THIS")
-          .setOAuthAccessToken("CANT SHOW YOU THIS")
-          .setOAuthAccessTokenSecret("CANT SHOW YOU THIS");
+        .setOAuthConsumerKey("5U2b3ex6tAU02bzEUsBf04A0P")
+        .setOAuthConsumerSecret("lEYWpplstulnFOy4U4bROkEnZ0uCvXM96UqV4Zfa8i0AsHC2Gj")
+        .setOAuthAccessToken("723164798834368512-E8oThYkfLE7iH9rtzSIG3jl0JCbs51W")
+        .setOAuthAccessTokenSecret("1fhxGYdvOf4XUlTDjhv2LEZY8arWLcf6s99dSowwqX94H");
         TwitterFactory twitterFactory = new TwitterFactory(configurationBuilder.build());
         twitter = twitterFactory.getInstance();
     }
@@ -77,7 +77,7 @@ public class JosVoiceTweet {
         try (SpeechClient client = SpeechClient.create()) {
             ResponseObserver<StreamingRecognizeResponse> responseObserver = new ResponseObserver<StreamingRecognizeResponse>() {
                 public void onStart(StreamController controller) {
-                    System.out.println("Start Talking your Tweet");                     
+                    System.out.println("Start Saying your Tweet [LISTENING]\n");                     
                 }
     
                 public void onResponse(StreamingRecognizeResponse response) {                                        
@@ -91,8 +91,8 @@ public class JosVoiceTweet {
                             final SpeechRecognitionAlternative alternative = result.getAlternatives(0);
                             wordsToTweet = alternative.getTranscript(); 
                                    
-                            System.out.println("Your tweet: " + wordsToTweet
-                            + "\nDo you want to send this Tweet? Type 1 for YES, 2 for NO.");
+                            System.out.println("YOU JUST SAID: " + wordsToTweet
+                            + "\n\nDo you want to send this Tweet? Type 1 for YES, 2 for NO.");
 
                             Scanner scanner = new Scanner(System.in);
                             int answer = scanner.nextInt();
@@ -103,7 +103,7 @@ public class JosVoiceTweet {
                                     postToTwitter(wordsToTweet);
                                 break;
                                 case 2:
-                                    System.out.println("Tweet not sent");
+                                    System.out.println("You chose not to send the Tweet");
                                     break;                                
                                 default:
                                     System.out.println("Incorrect selection, Try again");
@@ -134,7 +134,8 @@ public class JosVoiceTweet {
                     .setLanguageCode("en-ZA")
                     .setSampleRateHertz(16000)
                     .build();
-            StreamingRecognitionConfig config = StreamingRecognitionConfig.newBuilder().setConfig(recConfig).build();
+            StreamingRecognitionConfig config = StreamingRecognitionConfig.newBuilder()
+                    .setConfig(recConfig).build();
       
             StreamingRecognizeRequest request = StreamingRecognizeRequest.newBuilder()
                     .setStreamingConfig(config)
